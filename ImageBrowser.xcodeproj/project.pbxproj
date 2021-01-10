@@ -16,6 +16,7 @@
 		2AAA28A625A82AC700DA84BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA28A525A82AC700DA84BF /* main.m */; };
 		2AAA28B025A82AC800DA84BF /* ImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA28AF25A82AC800DA84BF /* ImageBrowserTests.m */; };
 		2AAA28BB25A82AC800DA84BF /* ImageBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AAA28BA25A82AC800DA84BF /* ImageBrowserUITests.m */; };
+		2AAA28C925A82C8B00DA84BF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA28C825A82C8B00DA84BF /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2AAA28B625A82AC800DA84BF /* ImageBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAA28BA25A82AC800DA84BF /* ImageBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserUITests.m; sourceTree = "<group>"; };
 		2AAA28BC25A82AC800DA84BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AAA28C825A82C8B00DA84BF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		2AAA289225A82AC400DA84BF /* ImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				2AAA28C825A82C8B00DA84BF /* 1.jpg */,
 				2AAA289325A82AC400DA84BF /* AppDelegate.h */,
 				2AAA289425A82AC400DA84BF /* AppDelegate.m */,
 				2AAA289625A82AC400DA84BF /* SceneDelegate.h */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AAA28A325A82AC700DA84BF /* LaunchScreen.storyboard in Resources */,
+				2AAA28C925A82C8B00DA84BF /* 1.jpg in Resources */,
 				2AAA28A025A82AC700DA84BF /* Assets.xcassets in Resources */,
 				2AAA289E25A82AC400DA84BF /* Main.storyboard in Resources */,
 			);
@@ -442,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75F4CNH48F;
 				INFOPLIST_FILE = ImageBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75F4CNH48F;
 				INFOPLIST_FILE = ImageBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
